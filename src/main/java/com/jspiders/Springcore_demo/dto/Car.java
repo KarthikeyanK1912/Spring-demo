@@ -1,5 +1,14 @@
 package com.jspiders.Springcore_demo.dto;
 
-public class Car {
+import lombok.Data;
 
+@Data
+public class Car 
+{
+   private int carNum;
+   private String carName;
+   private String carColour;
+   private String carBrand;
+   private String carVarient;
+   
 }

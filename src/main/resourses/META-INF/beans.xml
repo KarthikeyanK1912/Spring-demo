@@ -10,11 +10,52 @@
         <property name="name" value="Karthik"/>
         <property name="email" value="Karthik@gmail.com"/>
         <property name="contact" value="8248274602"/>
+        
+                </bean>
+                
+        <bean id="student2" class="com.jspiders.Springcore_demo.dto.Student">
+        <property name="studentId" value="02"/>
+        <property name="name" value="Sundar"/>
+        <property name="email" value="sundar@gmail.com"/>
+        <property name="contact" value="8245285262"/>
+        
+                </bean>
+
+        
+        <bean id="Car1" class="com.jspiders.Springcore_demo.dto.Car">
+        <property name="carNum" value="01"/>
+        <property name="carName" value="Hector"/>
+        <property name="carColour" value="Black"/>
+        <property name="carBrand" value="MG"/>
+        <property name="carVarient" value="Petrol"/>
+
+        </bean>
+        
+        <bean id="Car2" class="com.jspiders.Springcore_demo.dto.Car">
+        <property name="carNum" value="02"/>
+        <property name="carName" value="Xuv 700"/>
+        <property name="carColour" value="White"/>
+        <property name="carBrand" value="Mahindra"/>
+        <property name="carVarient" value="Petrol"/>
+
+        </bean>
+
 
         
         
         
         
-        </bean>
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
 
 </beans>
