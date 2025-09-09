@@ -14,12 +14,12 @@ public class Run
   {
 	ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/beans.xml");
 	System.out.println("IOC container created..!!");
-   // System.out.println(context.getBean("Student1",Student.class));
-    //System.out.println(context.getBean("Student2",Student.class));
+    // System.out.println(context.getBean("student1",Student.class));
+    //System.out.println(context.getBean("student2",Student.class));
 
 	
 	
-	System.out.println(context.getBean("Car1",Car.class));
+	  System.out.println(context.getBean("Car1",Car.class));
 	  System.out.println(context.getBean("Car2",Car.class));
     
 	//context = new FileSystemXmlApplicationContext("xml-file");
