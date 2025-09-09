@@ -69,15 +69,15 @@
      </property>
  </bean>
 
-<bean id=" " class="com.jspiders.Springcore_demo.dto.Hospital">
+<bean id="Hospital" class="com.jspiders.Springcore_demo.dto.Hospital">
        <property name=""/>
        <property name=""/>
-       <property name="">
+       <constructor-arg name="">
        <list>
            <ref bean="Doctor1" />
            <ref bean="Doctor2" />
            </list>
-</property>
+</constructor-arg>
 </bean>
 
 

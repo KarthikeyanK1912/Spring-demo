@@ -6,6 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 import com.jspiders.Springcore_demo.dto.Car;
+import com.jspiders.Springcore_demo.dto.Doctor;
 import com.jspiders.Springcore_demo.dto.Student;
 
 public class Run 
@@ -16,11 +17,15 @@ public class Run
 	System.out.println("IOC container created..!!");
     // System.out.println(context.getBean("student1",Student.class));
     //System.out.println(context.getBean("student2",Student.class));
+	//System.out.println(context.getBean("Car1",Car.class));
+	  //System.out.println(context.getBean("Car2",Car.class));
 
+	System.out.println(context.getBean("Doctor1",Doctor.class));
 	
 	
-	  System.out.println(context.getBean("Car1",Car.class));
-	  System.out.println(context.getBean("Car2",Car.class));
+	
+	  
+	//  System.out.println(bean);
     
 	//context = new FileSystemXmlApplicationContext("xml-file");
 	//context = new AnnotationConfigApplicationContext("java-file");
