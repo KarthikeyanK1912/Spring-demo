@@ -8,20 +8,20 @@ import org.springframework.stereotype.Component;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
-@Getter
-@Setter
+@Data
 @Component("emp")
-@Scope(scopeName = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//@Scope(scopeName = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Employee 
 {
-	@Value("100")
+	@Value("${employeeId}")
   private int employeeId;
-	@Value("Sundar")
+	@Value("${name}")
   private String name;
-	@Value("SUndar@gmail.com")
+	@Value("${email}")
   private String email;
-	@Value("8248274602")
+	@Value("${contact}")
   private String contact;
 	
 	@Autowired

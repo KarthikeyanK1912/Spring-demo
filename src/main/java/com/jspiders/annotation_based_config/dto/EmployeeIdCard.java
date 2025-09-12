@@ -9,6 +9,7 @@ import lombok.Data;
 @Component
 public class EmployeeIdCard 
 {
+	@Value("${serialId}")
 	private int serialId;
 	private String name;
 	private String employeeId;
